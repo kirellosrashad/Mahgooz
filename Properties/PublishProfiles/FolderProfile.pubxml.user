@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>F:\Kiro work\San George\Publish</_PublishTargetUrl>
+    <History>True|2025-05-01T15:26:19.4160856Z||;True|2025-05-01T15:49:05.9037031+03:00||;True|2025-04-03T21:35:58.3756248+02:00||;</History>
+    <LastFailureDetails />
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="STGeorgeReservation.Data.ApplicationDbContext">
+      <Value>server=127.0.0.1%3bport=3306%3bdatabase=STGeorgeDB%3buser=STGeorgeReservationUser%3bpassword=All!loy%40%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

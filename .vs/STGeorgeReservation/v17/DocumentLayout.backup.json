@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Kiro work\\San George\\STGeorgeReservation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{575F0D57-2371-41EE-8136-E57CDEAA999D}|STGeorgeReservation.csproj|f:\\kiro work\\san george\\stgeorgereservation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{575F0D57-2371-41EE-8136-E57CDEAA999D}|STGeorgeReservation.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575F0D57-2371-41EE-8136-E57CDEAA999D}|STGeorgeReservation.csproj|f:\\kiro work\\san george\\stgeorgereservation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{575F0D57-2371-41EE-8136-E57CDEAA999D}|STGeorgeReservation.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575F0D57-2371-41EE-8136-E57CDEAA999D}|STGeorgeReservation.csproj|f:\\kiro work\\san george\\stgeorgereservation\\stgeorgereservation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{575F0D57-2371-41EE-8136-E57CDEAA999D}|STGeorgeReservation.csproj|solutionrelative:stgeorgereservation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575F0D57-2371-41EE-8136-E57CDEAA999D}|STGeorgeReservation.csproj|f:\\kiro work\\san george\\stgeorgereservation\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{575F0D57-2371-41EE-8136-E57CDEAA999D}|STGeorgeReservation.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575F0D57-2371-41EE-8136-E57CDEAA999D}|STGeorgeReservation.csproj|f:\\kiro work\\san george\\stgeorgereservation\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{575F0D57-2371-41EE-8136-E57CDEAA999D}|STGeorgeReservation.csproj|solutionrelative:migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575F0D57-2371-41EE-8136-E57CDEAA999D}|STGeorgeReservation.csproj|f:\\kiro work\\san george\\stgeorgereservation\\migrations\\20250126232316_firstdbmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{575F0D57-2371-41EE-8136-E57CDEAA999D}|STGeorgeReservation.csproj|solutionrelative:migrations\\20250126232316_firstdbmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{575F0D57-2371-41EE-8136-E57CDEAA999D}|STGeorgeReservation.csproj|f:\\kiro work\\san george\\stgeorgereservation\\migrations\\20250501122759_stgeorgedb_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{575F0D57-2371-41EE-8136-E57CDEAA999D}|STGeorgeReservation.csproj|solutionrelative:migrations\\20250501122759_stgeorgedb_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "STGeorgeReservation.csproj",
+              "DocumentMoniker": "F:\\Kiro work\\San George\\STGeorgeReservation\\STGeorgeReservation.csproj",
+              "RelativeDocumentMoniker": "STGeorgeReservation.csproj",
+              "ToolTip": "F:\\Kiro work\\San George\\STGeorgeReservation\\STGeorgeReservation.csproj",
+              "RelativeToolTip": "STGeorgeReservation.csproj",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswAwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-01T13:41:32.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20250501122759_STGeorgeDB_initial.cs",
+              "DocumentMoniker": "F:\\Kiro work\\San George\\STGeorgeReservation\\Migrations\\20250501122759_STGeorgeDB_initial.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250501122759_STGeorgeDB_initial.cs",
+              "ToolTip": "F:\\Kiro work\\San George\\STGeorgeReservation\\Migrations\\20250501122759_STGeorgeDB_initial.cs",
+              "RelativeToolTip": "Migrations\\20250501122759_STGeorgeDB_initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T12:27:59.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "F:\\Kiro work\\San George\\STGeorgeReservation\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "F:\\Kiro work\\San George\\STGeorgeReservation\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAP8AAAAAAAAAAAAAABcBAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T16:00:46.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Kiro work\\San George\\STGeorgeReservation\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "F:\\Kiro work\\San George\\STGeorgeReservation\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAEwCgAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T23:34:23.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250126232316_FirstDBMigration.cs",
+              "DocumentMoniker": "F:\\Kiro work\\San George\\STGeorgeReservation\\Migrations\\20250126232316_FirstDBMigration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250126232316_FirstDBMigration.cs",
+              "ToolTip": "F:\\Kiro work\\San George\\STGeorgeReservation\\Migrations\\20250126232316_FirstDBMigration.cs",
+              "RelativeToolTip": "Migrations\\20250126232316_FirstDBMigration.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAE8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T23:23:16.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\Kiro work\\San George\\STGeorgeReservation\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "F:\\Kiro work\\San George\\STGeorgeReservation\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-26T23:28:15.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "F:\\Kiro work\\San George\\STGeorgeReservation\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "F:\\Kiro work\\San George\\STGeorgeReservation\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T23:03:46.635Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
