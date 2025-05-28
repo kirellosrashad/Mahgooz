@@ -9632,23 +9632,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kirel\\.nuget\\packages\\": {},
+    "C:\\Users\\minam\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Kiro work\\San George\\STGeorgeReservation\\STGeorgeReservation.csproj",
+      "projectUniqueName": "C:\\Mahgooz\\STGeorgeReservation.csproj",
       "projectName": "STGeorgeReservation",
-      "projectPath": "F:\\Kiro work\\San George\\STGeorgeReservation\\STGeorgeReservation.csproj",
-      "packagesPath": "C:\\Users\\kirel\\.nuget\\packages\\",
-      "outputPath": "F:\\Kiro work\\San George\\STGeorgeReservation\\obj\\",
+      "projectPath": "C:\\Mahgooz\\STGeorgeReservation.csproj",
+      "packagesPath": "C:\\Users\\minam\\.nuget\\packages\\",
+      "outputPath": "C:\\Mahgooz\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\kirel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\minam\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -9657,6 +9657,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -9674,8 +9675,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -9767,7 +9767,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
