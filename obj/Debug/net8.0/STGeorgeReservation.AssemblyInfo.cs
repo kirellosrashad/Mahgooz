@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("c48e1ce3-8275-44e5-b313-7885150e321d")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("STGeorgeReservation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aec912cb3ada71da89394902847b27d21e329a06")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00fe8ac81606cef548e3de4d7150b996b6ba59f5")]
 [assembly: System.Reflection.AssemblyProductAttribute("STGeorgeReservation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("STGeorgeReservation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

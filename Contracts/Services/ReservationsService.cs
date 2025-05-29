@@ -50,13 +50,14 @@ namespace STGeorgeReservation.Contracts.Services
         public async Task<List<BuildingDTO>> GetAvailableRoomsAsync(DateTime fromDate, DateTime toDate)
         {
             var rooms = await _ApplicationDbContext.Rooms
+                .Include(r => r.Reservations) // ✅ Ensure reservations are loaded
                 .Include(r => r.Floor)
                     .ThenInclude(f => f.Building)
                 .Where(r => !r.Reservations.Any(res =>
-                    (fromDate < res.ToDate && toDate > res.FromDate))) // Filter out booked rooms
+                    fromDate < res.ToDate && toDate > res.FromDate)) // ✅ Correct overlap logic
                 .ToListAsync();
 
-            // Organize results hierarchically
+            // Hierarchical structure
             var buildings = rooms.GroupBy(r => r.Floor.Building)
                 .Select(buildingGroup => new BuildingDTO
                 {
@@ -78,6 +79,7 @@ namespace STGeorgeReservation.Contracts.Services
 
             return buildings;
         }
+
 
 
 
