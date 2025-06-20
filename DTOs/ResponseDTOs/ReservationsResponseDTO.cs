@@ -6,6 +6,5 @@
         public Guid RoomId { get; set; }
         public DateTime FromDate { get; set; }
         public DateTime ToDate { get; set; }
-        public string ReservedBy { get; set; }
     }
 }

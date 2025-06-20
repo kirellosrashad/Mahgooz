@@ -19,19 +19,26 @@ namespace STGeorgeReservation.Contracts.Services
 
         }
 
-        public async Task<List<RoomAvailabilityResponseDTO>> CheckRoomAvailabilityAsync(Guid buildingId, Guid floorId, DateTime fromDate, DateTime toDate )
+        public async Task<List<RoomReservationDTO>> GetFloorReservationsAfterYesterdayAsync(Guid RoomId)
         {
-            var rooms = await _ApplicationDbContext.Rooms
-                .Where(r => r.FloorId == floorId && r.Floor.BuildingId == buildingId)
-                .Select(r => new RoomAvailabilityResponseDTO
-                {
-                    RoomId = r.Id,
-                    RoomName = r.Name,
-                    IsAvailable = !r.Reservations.Any(res => res.FromDate < toDate && res.ToDate > fromDate)
-                }).ToListAsync();
+            var yesterday = DateTime.UtcNow.Date.AddDays(-1);
 
-            return rooms;
+            var reservations = await _ApplicationDbContext.Reservations
+                .Where(res => res.RoomId == RoomId && res.FromDate > yesterday)
+                .Select(res => new RoomReservationDTO
+                {
+                    ReservationId = res.Id,
+                    RoomId = res.RoomId,
+                    RoomName = res.Room.Name,
+                    FromDate = res.FromDate,
+                    ToDate = res.ToDate,
+                    ReservedBy = res.ReservedBy
+                })
+                .ToListAsync();
+
+            return reservations;
         }
+
 
         public async Task AddReservationAsync(ReservationsResponseDTO reservation)
         {
