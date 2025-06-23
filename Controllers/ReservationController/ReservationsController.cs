@@ -21,9 +21,9 @@ namespace STGeorgeReservation.Controllers.ReservationController
 
         [HttpGet]
         [Route("CheckRoomAvailability")]
-        public async Task<IActionResult> CheckRoomAvailability(Guid buildingId, Guid floorId, DateTime fromDate, DateTime toDate)
+        public async Task<IActionResult> CheckRoomAvailability(Guid RoomId)
         {
-            var availability = await _ReservationService.CheckRoomAvailabilityAsync(buildingId, floorId, fromDate, toDate);
+            var availability = await _ReservationService.GetFloorReservationsAfterYesterdayAsync(RoomId);
             return Ok(availability);
         }
 
