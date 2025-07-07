@@ -88,6 +88,21 @@ namespace STGeorgeReservation.Contracts.Services
         }
 
 
+        public async Task<List<MyReservaionResponseDTO>> GetReservationsByUserAsync()
+        {
+            var reservations = await _ApplicationDbContext.Reservations
+                .Include(r => r.Room)
+                .Where(r => r.ReservedBy == _UserDataProvider.GetUserId().ToString())
+                .ToListAsync();
+
+            return reservations.Select(r => new MyReservaionResponseDTO
+            {
+                RoomId = r.RoomId,
+                FromDate = r.FromDate,
+                ToDate = r.ToDate,
+                RoomName = r.Room?.Name // Example additional data
+            }).ToList();
+        }
 
 
     }

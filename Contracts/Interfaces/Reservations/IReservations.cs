@@ -10,6 +10,7 @@ namespace STGeorgeReservation.Contracts.Interfaces.Reservations
 
         Task<List<BuildingDTO>> GetAvailableRoomsAsync(DateTime fromDate, DateTime toDate);
 
+        Task<List<MyReservaionResponseDTO>> GetReservationsByUserAsync();
 
     }
 }
