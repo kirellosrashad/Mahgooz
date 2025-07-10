@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("STGeorgeReservation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37f6e41c3b48ed0761b3736512c7a3f7c321c4d8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d56a0f4cc5202823ee63917b8faa2775a8471667")]
 [assembly: System.Reflection.AssemblyProductAttribute("STGeorgeReservation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("STGeorgeReservation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

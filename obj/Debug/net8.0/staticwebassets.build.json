@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "ArSQojCHm2T6xMWm9vgkyU4JCSKhg3zr1vwg1DUWywI=",
+  "Hash": "JgfbBC5dux8JIA8/YUvBYp4ixMMLrI0X8Z86AS3RYoo=",
   "Source": "STGeorgeReservation",
   "BasePath": "_content/STGeorgeReservation",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }
