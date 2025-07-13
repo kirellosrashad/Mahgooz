@@ -52,13 +52,13 @@ namespace STGeorgeReservation.Controllers.ReservationController
         }
 
         [HttpGet("MyReservation")]
-        public async Task<IActionResult> GetMyReservations()
+        public async Task<IActionResult> GetMyReservations([FromQuery] string UserId)
         {
             //var userId = User?.Identity?.Name; // Assuming Username is stored in ReservedBy
             //if (string.IsNullOrWhiteSpace(userId))
             //    return Unauthorized("User is not logged in.");
 
-            var reservations = await _ReservationService.GetReservationsByUserAsync();
+            var reservations = await _ReservationService.GetReservationsByUserAsync(UserId);
             return Ok(reservations);
         }
     }
