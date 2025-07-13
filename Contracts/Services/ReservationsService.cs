@@ -1,5 +1,4 @@
 ﻿using HRCom.Utilities.Services;
-using Microsoft.EntityFrameworkCore;
 using STGeorgeReservation.Contracts.Interfaces.Reservations;
 using STGeorgeReservation.Data;
 using STGeorgeReservation.DTOs.ResponseDTOs;
